@@ -60,8 +60,6 @@ public class IU {
 			System.out.println("Turn: " + chessMatch.getTurn());
 			
 			if (!chessMatch.getCheckMate()) {
-				System.out.println("CHECK!");
-			
 			System.out.println("Waiting player: " + chessMatch.getCurrentPlayer());
 
 			if (chessMatch.getCheck()) {
